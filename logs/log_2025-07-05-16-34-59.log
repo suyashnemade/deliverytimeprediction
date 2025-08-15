@@ -1,0 +1,9 @@
+[2025-07-05 16:34:59,615] werkzeug - WARNING -  * Debugger is active!
+[2025-07-05 16:34:59,619] werkzeug - INFO -  * Debugger PIN: 856-399-935
+[2025-07-05 16:34:59,681] werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\datastructures\\__init__.py', reloading
+[2025-07-05 16:34:59,681] werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\flask\\typing.py', reloading
+[2025-07-05 16:34:59,681] werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\sansio\\response.py', reloading
+[2025-07-05 16:34:59,683] werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\site-packages\\werkzeug\\datastructures\\headers.py', reloading
+[2025-07-05 16:34:59,686] werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\typing.py', reloading
+[2025-07-05 16:34:59,686] werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\datetime.py', reloading
+[2025-07-05 16:34:59,687] werkzeug - INFO -  * Detected change in 'C:\\Users\\ASUS\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\_pydatetime.py', reloading

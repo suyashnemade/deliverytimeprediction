@@ -1,0 +1,10 @@
+[2025-08-15 19:45:56,870] werkzeug - WARNING -  * Debugger is active!
+[2025-08-15 19:45:56,874] werkzeug - INFO -  * Debugger PIN: 121-263-684
+[2025-08-15 19:46:02,211] root - INFO - 
+        Error occured in execution of :
+        [E:\coding\projects\Food Delivery\exception.py] at
+        try block line number : [12]
+        and exception block line number : [15]
+        error message : [testin exception]
+[2025-08-15 19:46:02,212] root - INFO - test log
+[2025-08-15 19:46:02,212] werkzeug - INFO - 127.0.0.1 - - [15/Aug/2025 19:46:02] "GET / HTTP/1.1" 200 -

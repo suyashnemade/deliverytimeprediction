@@ -1,0 +1,5 @@
+[2025-07-07 21:57:54,862] root - INFO - Optaining FE steps object
+[2025-07-07 21:57:54,863] root - INFO - *********feature Engineering started ********
+[2025-07-07 21:57:54,878] root - INFO - droping columns from our original dataset
+[2025-07-07 21:57:54,882] root - INFO - droping columns from our original dataset
+[2025-07-07 21:57:55,072] root - INFO - pipeline steps completed

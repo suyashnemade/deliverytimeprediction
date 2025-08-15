@@ -1,0 +1,6 @@
+[2025-08-15 23:01:58,812] root - INFO - Optaining FE steps object
+[2025-08-15 23:01:58,812] root - INFO - *********feature Engineering started ********
+[2025-08-15 23:01:58,820] root - INFO - droping columns from our original dataset
+[2025-08-15 23:01:58,824] root - INFO - droping columns from our original dataset
+[2025-08-15 23:01:58,972] root - INFO - pipeline steps completed
+[2025-08-15 23:01:59,540] root - INFO - Exception occured while saving an object

@@ -1,0 +1,6 @@
+[2025-08-15 23:08:10,830] root - INFO - Optaining FE steps object
+[2025-08-15 23:08:10,830] root - INFO - *********feature Engineering started ********
+[2025-08-15 23:08:10,838] root - INFO - droping columns from our original dataset
+[2025-08-15 23:08:10,840] root - INFO - droping columns from our original dataset
+[2025-08-15 23:08:10,991] root - INFO - pipeline steps completed
+[2025-08-15 23:09:20,595] root - INFO - Best Model Found, Model Name: RandomForestRegressor). R2 Score: 0.6746449409552605

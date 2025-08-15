@@ -1,0 +1,6 @@
+[2025-07-05 16:33:29,193] werkzeug - WARNING -  * Debugger is active!
+[2025-07-05 16:33:29,197] werkzeug - INFO -  * Debugger PIN: 856-399-935
+[2025-07-05 16:33:40,199] root - INFO - test log
+[2025-07-05 16:33:40,200] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 16:33:40] "GET / HTTP/1.1" 200 -
+[2025-07-05 16:33:40,208] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 16:33:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2025-07-05 16:34:59,071] werkzeug - INFO -  * Detected change in 'E:\\coding\\projects\\project2\\src\\exception\\__init__.py', reloading

@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: project2
+Version: 0.0.1
+Summary: ML project
+Author:  
+Author-email:  
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: setuptools
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary

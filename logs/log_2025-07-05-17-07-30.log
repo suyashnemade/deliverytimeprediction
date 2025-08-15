@@ -1,0 +1,20 @@
+[2025-07-05 17:07:30,196] werkzeug - WARNING -  * Debugger is active!
+[2025-07-05 17:07:30,200] werkzeug - INFO -  * Debugger PIN: 856-399-935
+[2025-07-05 17:07:39,066] root - INFO - 
+        Erorr in excecution of : 
+        [E:\coding\projects\project2\exception.py] at
+        try block line : [12]
+        and exception block line number:[<frame at 0x000001B0A7FEA0C0, file 'E:\\coding\\projects\\project2\\exception.py', line 15, code index>]
+        error message:[testin exception] 
+        
+[2025-07-05 17:07:39,066] root - INFO - test log
+[2025-07-05 17:07:39,066] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 17:07:39] "GET / HTTP/1.1" 200 -
+[2025-07-05 17:07:40,140] root - INFO - 
+        Erorr in excecution of : 
+        [E:\coding\projects\project2\exception.py] at
+        try block line : [12]
+        and exception block line number:[<frame at 0x000001B0A7FEA4D0, file 'E:\\coding\\projects\\project2\\exception.py', line 15, code index>]
+        error message:[testin exception] 
+        
+[2025-07-05 17:07:40,141] root - INFO - test log
+[2025-07-05 17:07:40,141] werkzeug - INFO - 127.0.0.1 - - [05/Jul/2025 17:07:40] "GET / HTTP/1.1" 200 -
