@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+setuptools
+flask
+scikit-learn
+xgboost
+
+
+
+#-e . 

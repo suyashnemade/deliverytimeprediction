@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batch Prediction | Zomato Time</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-red-600 text-white py-6 shadow-md">
+        <h1 class="text-3xl text-center font-bold">BATCH PREDICTION</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-12">
+        <div class="max-w-3xl mx-auto bg-white shadow-lg rounded-lg p-8 text-center">
+
+            {% if error %}
+                <div class="bg-red-100 text-red-700 p-3 rounded mb-4">{{ error }}</div>
+            {% endif %}
+
+            {% if prediction_result %}
+                <div class="bg-green-100 text-green-700 p-4 rounded mb-4 text-xl font-semibold">
+                    {{ prediction_result }}
+                </div>
+            {% endif %}
+
+            <!-- Upload Form -->
+            <form action="/batch" method="POST" enctype="multipart/form-data" class="flex flex-col items-center gap-4">
+                <label class="w-full flex flex-col items-center bg-gray-200 hover:bg-gray-300 cursor-pointer rounded-lg px-4 py-6">
+                    <span class="text-gray-700 font-semibold mb-2">Upload CSV File</span>
+                    <input type="file" name="csv_file" accept=".csv" class="hidden" required>
+                </label>
+
+                <button type="submit" class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg text-xl transition-colors">
+                    Start Batch Prediction
+                </button>
+            </form>
+
+            <!-- Spinner -->
+            <div class="spinner-border mt-6 hidden" id="spinner"></div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-4 text-center">
+        <p class="text-sm">© 2025 Success Analytics</p>
+    </footer>
+
+    <script>
+        const form = document.querySelector('form');
+        const spinner = document.getElementById('spinner');
+
+        form.addEventListener('submit', function() {
+            spinner.classList.remove('hidden');
+            spinner.classList.add('block');
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train Pipeline |Time</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col">
+
+    <!-- Header -->
+    <header class="bg-red-600 text-white py-6 shadow-md">
+        <h1 class="text-3xl text-center font-bold">TRAIN PIPELINE</h1>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow container mx-auto px-4 py-12">
+        <div class="max-w-2xl mx-auto bg-white shadow-lg rounded-lg p-8 text-center">
+
+            <!-- Training Icon -->
+            <img src="https://c8.alamy.com/comp/HH538W/training-icon-design-HH538W.jpg" 
+                 alt="Training Icon" 
+                 class="w-48 h-48 mx-auto mb-6 rounded-lg object-cover shadow-md">
+
+            <!-- Form -->
+            <form action="/train" method="POST" class="flex flex-col gap-6">
+                <button type="submit" 
+                        class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg text-xl transition-colors mx-auto">
+                    Start Training
+                </button>
+            </form>
+
+            <!-- Messages -->
+            {% if message %}
+                <div class="bg-green-100 text-green-700 p-4 rounded mt-6 font-semibold">
+                    {{ message }}
+                </div>
+            {% endif %}
+
+            {% if error %}
+                <div class="bg-red-100 text-red-700 p-4 rounded mt-6 font-semibold">
+                    Error: {{ error }}
+                </div>
+            {% endif %}
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-4 text-center">
+        <p class="text-sm">© 2025 Success Analytics</p>
+    </footer>
+
+</body>
+</html>

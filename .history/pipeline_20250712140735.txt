@@ -1,0 +1,9 @@
+#data ingestion
+constant file -> config.pyc-> data ingestion
+
+
+#data transformation
+constant file ->configuration file ->SSSS data transformation-> utils files ->data transformation
+
+
+#model fitting
